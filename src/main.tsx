@@ -2,7 +2,7 @@ import './style.scss'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 
-    <!--flex  -->
+    <!--flex sasa -->
 <header class="card">Lokmene araar</header>
 <div class="swat">
     
