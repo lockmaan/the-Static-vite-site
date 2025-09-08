@@ -1,31 +1,28 @@
 
-:root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-html{
-  height: 100%;
-}
 body{
   background-color: #DEF8FF;
   text-align: center;
   height: 100%;
   width: 100%;
 }
-
+@font-face { font-family: Delicious; src: url('Delicious-Roman.otf'); }
+html{
+  height: 100%;
+}
 header{
-  margin-bottom: 33px;
   height: 9.8%;
-  width: 96%;
+  margin-bottom: 33px;
   background-color: #8FA9FF;
+  width: 99%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  .name{
+    font: gilroy;
+    align-self: left;
+    padding-left: 1vw;
+    padding-top: 1.5vh;
+  } 
 
 }
 .card{
@@ -55,9 +52,14 @@ header{
 #two{ 
   height: 41%;
   width: 79%;
-
+  
 }
 #three{
+  img{
+     width: 100%;
+      border-radius: 20px;
+    
+  }
   height:56%
 }
 
@@ -98,7 +100,7 @@ header{
     
     flex-direction: column;
     justify-content: space-between;
-
+    
   }
 }
 h1 {
@@ -109,5 +111,18 @@ h1 {
 #app {
   height: inherit;
   width: inherit;
-
+  
 }
+@media (min-width: 600px) {
+
+
+
+  .swat{
+    height: 110vh;
+    width: 98vw;
+    
+  }
+}
+
+
+
