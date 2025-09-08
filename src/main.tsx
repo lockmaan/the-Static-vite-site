@@ -1,4 +1,5 @@
 import './style.scss'
+import './phone.scss'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 
@@ -19,9 +20,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
         <div id="six" class="card">6</div>
     </div>
 
-<div>
 </div>
-
 
 
 `
