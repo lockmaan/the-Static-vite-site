@@ -16,13 +16,22 @@ header{
   width: 99%;
   display: flex;
   flex-direction: row;
+  
+  align-items: center;
   justify-content: space-between;
   .name{
+    
     font: gilroy;
-    align-self: left;
     padding-left: 1vw;
     padding-top: 1.5vh;
   } 
+  .project{
+    
+    font: gilroy;
+    justify-self: flex-end;
+    padding-right: 1vw;
+    padding-top: 1.5vh;
+  }
 
 }
 .card{
@@ -48,8 +57,19 @@ header{
 
 #one{
   height: 56%;
+  display: flex;
+  img{
+    align-self: flex-end;
+    width: 5vw;
+    height: 5vh;
+    padding-right: 1vw;
+    padding-top: 2vh;
+    opacity: 0.7;
+
+  }
 }
 #two{ 
+  
   height: 41%;
   width: 79%;
   
@@ -72,9 +92,18 @@ header{
 }
 #five{
   height: 86%;
+  img{
+    border-radius: 20px;
+    scale: 0.9;
+  }
+
+
+  
 } 
 #six{
   height:11%;
+  flex-direction: flex-row;
+
 }
 
 
