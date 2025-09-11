@@ -8,7 +8,6 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     <nav class="name">Lokmene <br><b>araar</b></nav>
     <a href="" className="project">Projects</a>
 
-
 </header>
 <div class="swat">
     
@@ -42,17 +41,17 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
         <div id="five" class="card" >
             <div>
             <p>Musea</p>
-            <div></div>
             </div>
             <img src="/computer-program-coding-screen_53876-138060.jpg" alt="" />
-            <div></div>
-            <div></div>
-        
+            <div>create</div>
+            <div>host</div>
+            <div>maintain</div>     
         </div>
         <div id="six" class="card">
-        <div className="icon"></div>
-        <div className="icon"></div>
-        <div className="icon"></div>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fab fa-facebook-messenger"></i>
+        <i class="fab fa-whatsapp"></i>
+         
         
         
         </div>
